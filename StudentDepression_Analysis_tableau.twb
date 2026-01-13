@@ -1,0 +1,1666 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <PatternedLineMarks />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Depression Student Dataset (Tableau Project 1)' inline='true' name='federated.00mcdja1831qk419nc62b09ihwin' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DESKTOP-M4Q0SLQ\SQLEXPRESS' name='sqlserver.0sje4zv0z7vj9511zsv450g18gmv'>
+            <connection application-intent='false' authentication='sspi' class='sqlserver' dbname='Tableau Project 1' multi-subnet-failover='false' odbc-native-protocol='yes' one-time-sql='' server='DESKTOP-M4Q0SLQ\SQLEXPRESS' />
+          </named-connection>
+        </named-connections>
+        <relation connection='sqlserver.0sje4zv0z7vj9511zsv450g18gmv' name='Depression Student Dataset' table='[dbo].[Depression Student Dataset]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic_Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Academic_Pressure]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Academic_Pressure</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Study_Satisfaction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Study_Satisfaction]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Study_Satisfaction</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Duration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sleep_Duration]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Sleep_Duration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary_Habits</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dietary_Habits]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Dietary_Habits</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Have_you_ever_had_suicidal_thoughts</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Have_you_ever_had_suicidal_thoughts]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Have_you_ever_had_suicidal_thoughts</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Study_Hours</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Study_Hours]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Study_Hours</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Financial_Stress</remote-name>
+            <remote-type>17</remote-type>
+            <local-name>[Financial_Stress]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Financial_Stress</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>3</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TINYINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_UTINYINT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family_History_of_Mental_Illness</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Family_History_of_Mental_Illness]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Family_History_of_Mental_Illness</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depression</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Depression]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Depression</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BIT&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age_Group]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Age_Group</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Index_column</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Index_column]</local-name>
+            <parent-name>[Depression Student Dataset]</parent-name>
+            <remote-alias>Index_column</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Academic Pressure (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[Academic_Pressure]' peg='0' size='0.865' />
+      </column>
+      <column caption='Academic Pressure' datatype='integer' datatype-customized='true' name='[Academic_Pressure]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Age (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='1.99' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column caption='Age Group' datatype='string' name='[Age_Group]' role='dimension' type='nominal' />
+      <column datatype='boolean' name='[Depression]' role='dimension' type='nominal' />
+      <column caption='Dietary Habits' datatype='string' name='[Dietary_Habits]' role='dimension' type='nominal' />
+      <column caption='Family History of Mental Illness' datatype='boolean' name='[Family_History_of_Mental_Illness]' role='dimension' type='nominal' />
+      <column caption='Financial Stress' datatype='integer' name='[Financial_Stress]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Have you ever had suicidal thoughts' datatype='boolean' name='[Have_you_ever_had_suicidal_thoughts]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Index column (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='1' formula='[Index_column]' peg='0' size='18.4' />
+      </column>
+      <column caption='Index column' datatype='integer' name='[Index_column]' role='measure' type='quantitative' />
+      <column caption='Sleep Duration' datatype='string' name='[Sleep_Duration]' role='dimension' type='nominal' />
+      <column caption='Study Hours' datatype='integer' name='[Study_Hours]' role='measure' type='quantitative' />
+      <column caption='Study Satisfaction' datatype='integer' datatype-customized='true' name='[Study_Satisfaction]' role='measure' type='quantitative' />
+      <column caption='Depression Student Dataset' datatype='table' name='[__tableau_internal_object_id__].[Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496]' role='measure' type='quantitative' />
+      <column-instance column='[Index_column]' derivation='Count' name='[cnt:Index_column:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age_Group]' derivation='None' name='[none:Age_Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Depression]' derivation='None' name='[none:Depression:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Sleep_Duration]' derivation='None' name='[none:Sleep_Duration:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Academic_Pressure]' derivation='Sum' name='[sum:Academic_Pressure:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Financial_Stress]' derivation='Sum' name='[sum:Financial_Stress:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#358ead'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+            <map to='#7ec1ca'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Age_Group:nk]' type='palette'>
+            <map to='#b84b23'>
+              <bucket>&quot;A3&quot;</bucket>
+            </map>
+            <map to='#d25921'>
+              <bucket>&quot;A1&quot;</bucket>
+            </map>
+            <map to='#f49234'>
+              <bucket>&quot;A2&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Sleep_Duration:nk]' type='palette'>
+            <map to='#5485b2'>
+              <bucket>&quot;More than 8 hours&quot;</bucket>
+            </map>
+            <map to='#72a3c9'>
+              <bucket>&quot;Less than 5 hours&quot;</bucket>
+            </map>
+            <map to='#92c0df'>
+              <bucket>&quot;7-8 hours&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;5-6 hours&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.00mcdja1831qk419nc62b09ihwin].[sum:Academic_Pressure:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.00mcdja1831qk419nc62b09ihwin].[sum:Financial_Stress:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.00mcdja1831qk419nc62b09ihwin]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Depression:nk]' type='palette'>
+            <map to='#80b0d5'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Depression Student Dataset' id='Depression Student Dataset_F54AA6A75D5F419DADB09851BFB89496'>
+            <properties context=''>
+              <relation connection='sqlserver.0sje4zv0z7vj9511zsv450g18gmv' name='Depression Student Dataset' table='[dbo].[Depression Student Dataset]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='acedmic pressure by sleep duration'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#a0cbe8' fontname='Tableau Bold' fontsize='16'>Academic Pressure by Sleep Duration</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Depression Student Dataset (Tableau Project 1)' name='federated.00mcdja1831qk419nc62b09ihwin' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00mcdja1831qk419nc62b09ihwin'>
+            <column datatype='integer' name='[Academic Pressure (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[Academic_Pressure]' peg='0' size='0.865' />
+            </column>
+            <column caption='Academic Pressure' datatype='integer' datatype-customized='true' name='[Academic_Pressure]' role='measure' type='quantitative' />
+            <column caption='Sleep Duration' datatype='string' name='[Sleep_Duration]' role='dimension' type='nominal' />
+            <column-instance column='[Academic Pressure (bin)]' derivation='None' name='[none:Academic Pressure (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sleep_Duration]' derivation='None' name='[none:Sleep_Duration:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Academic_Pressure]' derivation='Sum' name='[sum:Academic_Pressure:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Academic_Pressure:qk]</rows>
+        <cols>[federated.00mcdja1831qk419nc62b09ihwin].[none:Academic Pressure (bin):qk]</cols>
+      </table>
+      <simple-id uuid='{5C150257-852E-4A59-B717-ADAA754AE821}' />
+    </worksheet>
+    <worksheet name='age by depression'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#a0cbe8' fontname='Tableau Bold' fontsize='16'>Age by Depression wise Dietary habits</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Depression Student Dataset (Tableau Project 1)' name='federated.00mcdja1831qk419nc62b09ihwin' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00mcdja1831qk419nc62b09ihwin'>
+            <column datatype='integer' name='[Age (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='1.99' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='boolean' name='[Depression]' role='dimension' type='nominal' />
+            <column caption='Dietary Habits' datatype='string' name='[Dietary_Habits]' role='dimension' type='nominal' />
+            <column caption='Sleep Duration' datatype='string' name='[Sleep_Duration]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Count' name='[cnt:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Depression]' derivation='None' name='[none:Depression:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Dietary_Habits]' derivation='None' name='[none:Dietary_Habits:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sleep_Duration]' derivation='None' name='[none:Sleep_Duration:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]'>
+            <groupfilter function='member' level='[none:Sleep_Duration:nk]' member='&quot;5-6 hours&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Age:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Age (bin):qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='10' />
+            <format attr='font-weight' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='bold' />
+            <format attr='font-family' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='Wide Latin' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='10' />
+            <format attr='color' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='#000000' />
+            <format attr='font-weight' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='bold' />
+            <format attr='font-family' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' value='Wide Latin' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='font-family' scope='cols' value='Wide Latin' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]' />
+              <text column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Dietary_Habits:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.00mcdja1831qk419nc62b09ihwin].[none:Dietary_Habits:nk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Age:qk]</rows>
+        <cols>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.00mcdja1831qk419nc62b09ihwin].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{C58FD92C-3BDD-43A4-B9EE-39C1ABE319E3}' />
+    </worksheet>
+    <worksheet name='student by Academic pressure'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#72b966' fontname='Tableau Bold' fontsize='16'>Student by Academic Pressure Wise Study Hour</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Depression Student Dataset (Tableau Project 1)' name='federated.00mcdja1831qk419nc62b09ihwin' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00mcdja1831qk419nc62b09ihwin'>
+            <column caption='Academic Pressure' datatype='integer' datatype-customized='true' name='[Academic_Pressure]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Index column (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='1' formula='[Index_column]' peg='0' size='18.4' />
+            </column>
+            <column caption='Index column' datatype='integer' name='[Index_column]' role='measure' type='quantitative' />
+            <column caption='Study Hours' datatype='integer' name='[Study_Hours]' role='measure' type='quantitative' />
+            <column-instance column='[Index column (bin)]' derivation='None' name='[none:Index column (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Academic_Pressure]' derivation='Sum' name='[sum:Academic_Pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Study_Hours]' derivation='Sum' name='[sum:Study_Hours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Academic_Pressure:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='color' scope='rows' value='#000000' />
+            <format attr='font-weight' scope='rows' value='bold' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='color' scope='cols' value='#000000' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='font-family' scope='rows' value='Tableau Bold' />
+            <format attr='font-family' scope='cols' value='Tableau Bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Study_Hours:qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='dashed' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='19' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Study_Hours:qk]' />
+              <text column='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Study_Hours:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Study_Hours:qk]</run>
+                <run bold='true'>&gt;Study Hour</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-line-pattern' value='dashed' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]</rows>
+        <cols>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Academic_Pressure:qk]</cols>
+      </table>
+      <simple-id uuid='{5CE9405E-55C4-4B22-BBBA-DA6AAB82D959}' />
+    </worksheet>
+    <worksheet name='student by financial stress'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#69aaa5' fontname='Tableau Bold' fontsize='16'>Student by Financial Stress Age group wise</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Depression Student Dataset (Tableau Project 1)' name='federated.00mcdja1831qk419nc62b09ihwin' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00mcdja1831qk419nc62b09ihwin'>
+            <column caption='Age Group' datatype='string' name='[Age_Group]' role='dimension' type='nominal' />
+            <column caption='Financial Stress' datatype='integer' name='[Financial_Stress]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Index column (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='1' formula='[Index_column]' peg='0' size='18.4' />
+            </column>
+            <column caption='Index column' datatype='integer' name='[Index_column]' role='measure' type='quantitative' />
+            <column-instance column='[Age_Group]' derivation='None' name='[none:Age_Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Index column (bin)]' derivation='None' name='[none:Index column (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Financial_Stress]' derivation='Sum' name='[sum:Financial_Stress:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Financial_Stress:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='font-family' scope='cols' value='Wide Latin' />
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='font-weight' scope='rows' value='bold' />
+            <format attr='font-family' scope='rows' value='Wide Latin' />
+            <format attr='display' field='[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</rows>
+        <cols>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Financial_Stress:qk]</cols>
+      </table>
+      <simple-id uuid='{BDED3B49-7435-4B93-A8B2-F661AE0D4AAE}' />
+    </worksheet>
+    <worksheet name='student by suicidal thoughts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#76b7b2' fontname='Tableau Bold' fontsize='16'>count of student by suicidal thoughts gender wise</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Depression Student Dataset (Tableau Project 1)' name='federated.00mcdja1831qk419nc62b09ihwin' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00mcdja1831qk419nc62b09ihwin'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Have you ever had suicidal thoughts' datatype='boolean' name='[Have_you_ever_had_suicidal_thoughts]' role='dimension' type='nominal' />
+            <column caption='Index column' datatype='integer' name='[Index_column]' role='measure' type='quantitative' />
+            <column-instance column='[Index_column]' derivation='Count' name='[cnt:Index_column:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Have_you_ever_had_suicidal_thoughts]' derivation='None' name='[none:Have_you_ever_had_suicidal_thoughts:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Have_you_ever_had_suicidal_thoughts:nk]' direction='ASC' using='[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-width' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='color' scope='rows' value='#000000' />
+            <format attr='font-weight' scope='rows' value='bold' />
+            <format attr='font-family' scope='rows' value='Wide Latin' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='color' scope='cols' value='#000000' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='font-family' scope='cols' value='Wide Latin' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]' />
+              <text column='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Age:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>age&lt;</run>
+                <run bold='true'>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Age:qk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]</rows>
+        <cols>[federated.00mcdja1831qk419nc62b09ihwin].[none:Have_you_ever_had_suicidal_thoughts:nk]</cols>
+        <show-full-range>
+          <column>[federated.00mcdja1831qk419nc62b09ihwin].[Academic Pressure (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{6B15D40A-2E83-44C7-B913-BB543D83E789}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Student_Depression_Analysis'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98306' id='7' param='horz' type-v2='layout-flow' w='99058' x='471' y='847'>
+            <zone h='98306' id='5' type-v2='layout-basic' w='89823' x='471' y='847'>
+              <zone h='51378' id='3' name='student by suicidal thoughts' w='24332' x='471' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46928' id='9' name='student by Academic pressure' w='41160' x='49134' y='52225'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='51378' id='13' name='acedmic pressure by sleep duration' w='41160' x='49134' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46928' id='14' name='age by depression' w='48663' x='471' y='52225'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='51378' id='16' name='student by financial stress' w='24331' x='24803' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='157' h='98306' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9235' x='90294' y='847'>
+              <zone h='2330' id='8' name='student by suicidal thoughts' pane-specification-id='2' param='[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Gender:qk]' type-v2='color' w='9235' x='90294' y='847'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='2330' id='10' name='student by Academic pressure' pane-specification-id='4' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]' type-v2='color' w='9235' x='90294' y='3177'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6991' id='15' name='age by depression' pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]' type-v2='color' w='9235' x='90294' y='5507'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98306' id='17' param='vert' type-v2='layout-flow' w='99058' x='471' y='847'>
+                <zone fixed-size='280' h='51378' id='3' is-fixed='true' name='student by suicidal thoughts' w='24332' x='471' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2330' id='8' name='student by suicidal thoughts' pane-specification-id='2' param='[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Gender:qk]' type-v2='color' w='9235' x='90294' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51378' id='16' is-fixed='true' name='student by financial stress' w='24331' x='24803' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51378' id='13' is-fixed='true' name='acedmic pressure by sleep duration' w='41160' x='49134' y='847'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46928' id='14' is-fixed='true' name='age by depression' w='48663' x='471' y='52225'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6991' id='15' name='age by depression' pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]' type-v2='color' w='9235' x='90294' y='5507'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46928' id='9' is-fixed='true' name='student by Academic pressure' w='41160' x='49134' y='52225'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2330' id='10' name='student by Academic pressure' pane-specification-id='4' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]' type-v2='color' w='9235' x='90294' y='3177'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{079950C2-9389-4599-8C38-770C713C5ED9}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='student by suicidal thoughts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]' type='color' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Have_you_ever_had_suicidal_thoughts:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Index_column:qk]</field>
+                  <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]</field>
+                  <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Have_you_ever_had_suicidal_thoughts:nk]</field>
+                  <field>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Age:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>122</value>
+                <value>&quot;M&quot;</value>
+                <value>false</value>
+                <value>3197</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[cnt:Gender:qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Have_you_ever_had_suicidal_thoughts:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{05F02982-0D08-4156-94BE-F1FE43B71C57}' />
+    </window>
+    <window class='worksheet' name='student by Academic pressure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='19' param='[federated.00mcdja1831qk419nc62b09ihwin].[sum:Study_Hours:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Academic Pressure (bin):qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Age:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2349723C-6D55-436F-BCDA-BCE34E0F5C2C}' />
+    </window>
+    <window class='worksheet' name='age by depression'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Dietary_Habits:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[sum:Financial_Stress:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{99FB854D-B4D5-4732-9261-F866F1F25DB3}' />
+    </window>
+    <window class='worksheet' name='acedmic pressure by sleep duration'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]' type='color' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Academic Pressure (bin):qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Academic_Pressure:qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Sleep_Duration:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{74E3D968-B642-402F-A48D-9049310DBE48}' />
+    </window>
+    <window class='worksheet' name='student by financial stress'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Age_Group:nk]</field>
+            <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Index column (bin):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{12FD7C8F-1B47-4053-9417-05A43CABC5B0}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Student_Depression_Analysis'>
+      <viewpoints>
+        <viewpoint name='acedmic pressure by sleep duration'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='age by depression'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Depression:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='student by Academic pressure'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.00mcdja1831qk419nc62b09ihwin].[none:Gender:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='student by financial stress'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='student by suicidal thoughts'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{E511B46C-6001-4A51-ADAC-8645B4D90E45}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Student_Depression_Analysis' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='acedmic pressure by sleep duration' width='192'>
+      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
+      6QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='age by depression' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAWdklEQVR4nO3d2XMbV3bA4V831sZGrFzBVVxky7IkS3ZmYk/sqUwyU5WaylqVVCpPecjf
+      l6rkIZNkVifxOpa1WAtlUhQXECRA7Dt6yQMlyqToEUWRbBB9vhdBYJM4aPRB3+577r2KZVkW
+      QjiUancAQtjJDWBZFrquoyiK3fEIcabczx6oqorL5bIzFiHOnDSBhKNJAghHkwQQjiYJIBxN
+      EkA4miSAcDRJAOFokgDC0fY6wkzTRMqC+ouu6xiGYXcYqKqKx+OxOwy63S6mae57TnqC+9hy
+      rsq9kv1favMReHNMszsMFrcqLFb2PydNIOFokgDC0SQBhKNJAghHkwQQjiYJIBxNEkA4miSA
+      cDRJAOFofVUKkSvXyFR1u8MgoamkExG7w8C0TMD+iQ6eTbpgt93je//+6KtSiKYOa037T2oe
+      l4Xb7X75hqdMVVTA/i81RVF6Yn8cNuuJ/UeLEDaSBBCOJgkgHE0SQDiaJIBwNEkA4WiSAMLR
+      HJsAlqnTarZo1Kr7nq+WCgDUSgXMw35R9BX7eydsoreL/OZff4HlgvRoisjwNFtra1iqTnFt
+      mUAoimtgkPGJNKqikp6ZsztkcQr6qhTi4Ij/l0lNzFLLLXL/91+QGM6wsrTO7Pt/RDSRQDe8
+      +FSD8uYjWv406Zmj/91e6frvlVKITLnJWnnT7jBwYYKyf3B+X5VCqKoKR2y4eLQU199PAT/A
+      NE0URcGyLFRVxTJNUBQURWH9/lcMTL/1SnH0Std/r5RCGKg0FZ/dYaBZ7Rees/9T6gG7ifO8
+      VkRRn18apd94x5aYxNlw7EWwECBnAPFUp7bNVqFLo7DFxOwsPi1Aq9libek+wVCEZqXM6MJb
+      aP7dpoyqnu/m8jOSAAIAo1Pn7qefoDfy3PvsN6QmZ1ldXGby7Ys8vnuTYCjC0tISAwMa3kCS
+      6+9/YHfIJ0ISQADg1qJc//DPaBY3Ke/k0EIRAqEYyfQoejyG4QoRDPopPP6a0Mwlu8M9MZIA
+      AgCPFmNQA4ZSh/z0wt6jxPAoPr/983yeFLkIFq+knw5+kAQQDtdXPcGKqaNZXbvDwGWp0hN8
+      TvRVT7Clumkq9p/UDEUGxZ8X9h8tQthIEkA4miSAcDRJAOFokgDC0SQBhKNJAghHkwQQjmZ/
+      b40Ndpa+ZKMZpbL8FTd+9nMUy4ViNFl69JjJmRn8wSCGbtBpt2gVt/ANTaN2GwRC9k95Lk5W
+      X5VCHHVQfLNaYHN9i9rGFp//+j8wO10Us4teL3Lnk1/h9UeYf+ctHvzuv/GEhxm9sMzyNw/4
+      4V//M+nB8Ev/vgyKPz/6qhTiqIPiI8MXmHFVUOfmUYwyHdOHUd3GG75EvFggHB9kbDxJo/Ae
+      g2Np2l2DC5e8xELeI8Uhg+LPD/s/JRtEhi8QGX75djc+OsJG4lyTi2DhaJIAoqd0myWKxTLZ
+      1Sf7ns+sLFEtFdCb+RN9PUc2gUTv6lS3+OzjWxiNIm6XyujcJe59dYvJhSl2nixz6do8m1st
+      Aj4fkfE3mZ5Ov9bryRlA9BTVo/HGjfcZHU/j8mq0KiVGxicIxVKMTU0TGZomPjhCPvOYwdGR
+      1349OQOInqLFJpiMweTk2PduE092CA4kCPpe/66lnAHE+ePykp6aPpE/JQkgHE0SQDhaX5VC
+      yKwQ++3uD/vjcPXwWjt9VQohs0Lst7s/7P9MD5uXv1fYf7QIYSNJAOFokgDC0SQBhKNJAghH
+      kwQQjiYJIBxNEkA42on0BHe73Vdepf00dLtdwP6OH103qNfrdofxdH/Y3yHXK1yYL3TKnUhP
+      8NfrJdab9p9MNEuHHuj5zDUNVlft7/3ULAMUSYBnDlux3v6jVggbSQIIR3NgAlg0G3Wajd02
+      umUaVCvlF7aplooAVEuFM47v7LXrZZqtDuWd3PNZhCyDavngfuk/DmwgWnzzxSeASdDvpouP
+      tYdfM3flXUqFCumZafL5HVqFNTLrBSIDPhLpOeLxGKpXY2xi0u43cOLW7/yGtXqMzTufcPXD
+      97GUAHplg52yTjgcIBAewBMIUNvOUsltkLr4Do38Nm/84McE/ef7EHLgGUChUdykWKzSaOm0
+      ytsMTc6x8vVvWVq8x51PP+bB7duoniCRSIBAbJhus8rS57/A8sXtDv5UKG6NZn6FeHqWfDZD
+      bnWR7e0crdImi3e+YW1llWgAbn76Mao/Qm17jUf37tFs2X+h/7oUaxemaR77LtCXK/keuQvU
+      fuEq/zCWaWChPJ1K8TnTNFGwQHGhKGCaBqrqAsvgwa2bLFy9caSZNo8ax2k7ThyWaWKhACaq
+      6sI0zd39ZFmYloWiKHu3yw/uv5OM4zQcFsf5Pn8dk6K6Dj2QD36gqvr0C0FxcfHqjdMPrAco
+      qvp03+y+9719oiioivL0Yf9MuGv/17YQNjrzM0DxyW3M2AV2nqyQnh7H5/PS0S1WH94hEI5S
+      rxSZuvg2Xp8PsJ5/C/epbrPAZrZGs5xjYnYOXyBIq9Fkbek+wVCEVqXM8MJbBPy7p+5+3x9n
+      be8aQNf1Y5/abq4V2Wgd7YPZvPUL7m9D+eEXdL0xxucW2FxbY3wsTnZ9m1A0iKX60NQGgeEr
+      XLn+9pHj6OW25vdpVzf45b/9EkOvojdbpCYu8OThEpNXL1HPrBIIDVBrGUTjQbxajOvv/8mp
+      xHGaQlYTowcaGz502ge+80+kFOJVEic0NMv12TEKw3GK5QbBkEZo4G0S8SjB0AbB1Bge1WLx
+      i99y5e3Lx4rnPHF5w1z/8U9pVXKUd7YIBCNowRjJiTRmIo6uBAiGNMqrd/BMvGl3uMdyWAmC
+      LSxeiKM37wJZFu12C59fe6Vf65VvvNOIo91qyv44hTjsPy8dRlFe+cPud7I/TkdvJoBwpHat
+      RKvd3V+SYepUy5VTe01H9gOI3vTk1q/Y6iRZu/05Vz94D8UdolNco1CFcFgjGA7T1VV0q0t2
+      8RZz135Is21w+ca7x14KUBJA9AzFE6K2ukxq4gI72U1Mw6DbadGut8g+6ZBIpxkcn+Hu518w
+      O5Ek8+guNd3PpRvvHnsYVG9eBB9TL19sSRyvWpJhYCkqWPtLMizTBEUBy4KnZRmvU5IhZwDR
+      k/bKVZT9JRnKd0ozdv95vbIM+7+2hbCRJIBwtBOZFaJVr1MudE4sqOMy3RZVvWZ3GHgCKloP
+      3Lb3offEQvG9EofZalKu7z8+TqQUotQ0WSnYvzBF0m+Rb9lfqutSfYQC9l98Htb17+Q4Gu3m
+      C8epNIGEo0kCCEeTBHA8k1xmg1xmDQCjXWNrc+vANgaZx99SLZfJrCydfYinSPoBHM/kyaOH
+      gM7Srf/DMFUK+W3igyOUSjWmLkyyupEj7tfJ5juENIOVR/cJaT5Cw3PMzE7Z/QZeiySA46mk
+      RoZBUfF4LmC0a0xfeofqTpbJS+9htGtcGRoD02AML6pigmVw+3//mw+u/9ju4F+bJIDjqUzO
+      HzLQZurC9/+KZZIYmcB3zucEArkGEMehqPj8frujOBGSADaqbC6R2czz8KvPMJ49aXbJrD55
+      YdtGuYBu/wz0fedEeoLP+wrzdilmFnmUc1NcukulmkfXXVjtEo16i69/1yEwkGJoepIHH/8X
+      wWiS1Mw8m48e8u5f/COpWOClf98ydIyO/T30lkcFj/0dYYc580Hx4jl/OEWolCdy+T087jqK
+      6kbvuonEE5SKdcKxBCOJINnRaRKpIVAU3IEBfN6jnbjLDZ0H2eYpv4uXmx/0o0XtjuJw5/8q
+      5hwbmr/B0PzLt/vxXy7sPX77vVMMyIHkGkA4mmMTwDJ1Oq0W7cb+6sBGtQRAs1pCrjnP0v51
+      G8xui3rt4Dpr5u66DUaHaqV6Iq/q2CaQ2S1z69e/ARWSgwkCiQlK2QyWqlPNPsEfGEANJ0kN
+      j6AqKsn0tN0h9zmdb774HOjid1sYpsX6aoa5y1eplKuMpIcpV6os/vY/GLr8HvmNVaYX3iIc
+      jZJIXyCkeY71qo5NAIDo8DTN4hKr924RSWbJrmYZu3aNUDSOYXjwKAb13DId3yjJtN3R9juV
+      am4Vyx9FCWu0CusMpcd5dPP/qBteCusPaeAjHI2gKjAyPkG92eDeV7/nb//l4rFf1bEJ4PIl
+      mLuWAN7ZXRfgOwOsLcsEFBRFIb98h+DYwsv+nHhtLj78m38CRd2bhh2AD//86RK8FsqBdRs6
+      tQKpkQlcr3ET0rEJ8F17A673Blo/vzRKzvT//KS94vtmvv6+dRu8oTgzc6+3ao9jL4KFADkD
+      iKc61Q22ch0auRXCsRihxDDF/A7tyjbtWhnLgnB6ntTgEIqiEBzoj/XSpBTiFLgw0Sz7F5Az
+      XuFGrmUaZB99TbeRp15J4s/vUC/uoA0N4Q1FcSsK3UqO9Z0lXKEJ5i73WQJIKcTJ6ZX58HVa
+      R97WExzk8o9+itFpUs2v4wvFadSaRIcG0etFDDWAX/NRWLlDZLp/bgpIE0gAoLr9+N1AIEAw
+      mgAg9uyH4eeFPIHLPzrz2E6TXAQLRzvzBGiVMjTbHYpb2e88a7GTWaFRLbOTWTnrkGxiksus
+      Px+M3mmS3ci8sE1m5Vuq5VLfDUbvFWfeBKpvLbJWWKS9vYLl8jFyYYGNlSck4xq5zBbBgRCb
+      K0uEwhpuf4L0XP+0N/ezng5GN1i+/Sm65aa4vU48NUKxVGdqboaV1U2SIYXNbJVwyMXjR/eJ
+      BP1oiWlmF/7AkEVxZGeeAJ5AjKnRWbJfV6l3VBqVErFUikA4RMJQ8MeGcalQWfuG9A/fPevw
+      zpCKotfouMLER6YxWlWSo2mquTX84QFq5QqpwRQD4QAoOUKpYdwqZB/e5MrVj+wOvm+ceQJE
+      xq8AEP3Rz79/I8siF4wwEDxegdP5oHD9T//ykOf/QNKbOsFIjGhA7l2clN68CFYUUlJ9+SLV
+      TXpamj4nqTcTQIgzIgkgHK2vSiF8Lkhp9seidFtk1jbtDoMBL6R6YJ0Cs90ks2b/4HyfCziw
+      nmRflUK0DXpifQDL6o11CiSO/ZL+F78cpQkkHE0SQDiaJIBwNEkA4WiSAMLRJAGEo0kCCEeT
+      BBA9o5r9lmKxwtr9r56PZjbb7GRf7FR8NoXl6+qrnmBxvlVyK+xUVill1mhU81iWG6NVotk0
+      +NbQ0SJRvF6N7a0sflpERyao17tc/einHKWbTXO/WCnQVz3B4nzzhVJ46nlG5i6hmFUsPJhd
+      L8GIl2ajQyCSxBtOEUch4DExTfCHo1gcLHA4XFN/sVJACstFz0hOXyF5lCr4makTe025BhCO
+      5sgE0Fs1Wq029dIOey1Cy6RRLdsZlrCBI5tAxeXPWC0FqXz7GRd+8AGG7oF2gUqlTkDT8IRi
+      uP0+OoUt6qU8oam36BaypC9/QOCY89CL3uTIM4CiujFqmwSSU5TzWSq5NUr5LEZjh9VHD9ha
+      eUx0wMe3tz/FdGl0SlnWlhZpNo8+05o4HxRrF6ZpHvsu0L9/+Zjfb9g/4CHpf/W6c8syeXYX
+      V1VVTNPcnY7bsjAta2/dgGc/P604ToPE8fI4HNkE+i5FUfnuXdy9g1xR9hZqkNu8/cuRTSAh
+      nnH8GcBuertEIV+nXdthcHwGj1+j02qRX/sWXyBEp14hPnURn3d3tumjNsNeRWH5S2rqMOWV
+      myz88U9QFA90K2yubzOYTuP1BzANHb3ToVXeRktNYnWb+AOhE4/lrJ1IKUTAbfXEYHTNDa8w
+      I3hPsPQmK7c+wTRqrN7+hIGRSbZWnjB0cYHW0l38WoiN1RVCkQBu3wDz135w4jG0mzXy27dp
+      FCs8/PxXWN0OFhbtapmV2yYef4DR2TlWbn6CFk4wMLTM1uo6b//Z3xONvHzUvf+QEgQ7+A65
+      xD2RUoiGrpBr2t9OPmzQc69TPSHm3v2QTn2HRimPVwvj1aIMjAxjDQxgKBojAT/1zQe4R46w
+      rPwxhFJTDHlquGbewOyUsFSNTnUbT3qeVq1KMJokGg/Rrl0lmhqkq5u4PGE0/9EaEK1DShDs
+      cNjxIU0gm7m8YWKpMKRSh/x0au9RJDGMx+c/lRjCg1OEBw8+++LSo/M3Rk7l9e0kF8HnxGkd
+      /E4nCSAcTRJAOJokgHA0SQDhaJIAwtHONAFalQKGaVErF/aes4wWzYb9hXTCmc60H+Dxzf/E
+      H5/h8f2HTM+P4wsPUsl8Q5tB/EE/AZ+JOxCnXChQ315iePYKjXqb2as3jjTmU4hXdaazQriC
+      w+SW7zE0OUF1J08tv0HbcNEoL1NxeYlOjBI3syzdvcvs3DSljW8pVrpMX71xpEztlfUBtON1
+      qAsbnOmsEPM3PoIbu49N00BRVCzLQlUVTNNCVVUsy2Tk0p+gKLtj/S3LOnI7rVfWBziPJRlO
+      ZVsphKruJtuz5FHVZ7X3z+rzpRZfnD65CyQcTRJAOJokgHA0SQDhaJIAwtEkAYSjSQIIR5NB
+      8aegV3qkB7w87VC0l79HesZPbX0AGRS/X6/0SPfyCu12OGx9AGkCCUeTBBCOJgkgeoRFp9mg
+      02wAYOptmo3GgW2eruFgdmnUayfyqjIvkOgROivffA108bgsTNMin91ibO4SjVqN+NAg9VqN
+      9S9/TWz+GuWtDYanLhKIRIgMTqL5j7dugySA6BEqjeI6+AYIBPx0K5vEhkbZePAlLcNDZWuZ
+      tuUlEAmjAonhMdrtBquf3eZHfzd77FeVBBA9wsWVP/1bUNQDJfAfYprmbnH801L5Z2s4dBtF
+      BpJp1Ne40SUJIHqGoh5+G/7gjNjP/u8JxBiZjL3Wa8pFsHA0B54BTDaXFwGToYlZup02W6tL
+      jM29TbfdwOPxYJgWW4/v4w9GadWLDE2/idvjBU52fv7Sk5uUjAS11VvMv/8TFMsNRp3NtQyD
+      6YnvzMvfpl3J4UtOQp/My98rznRQfK+oFnKAyfbjb7BUL91mhc37n9C2AqTSUxRyWyTjITYe
+      LeIPetjJZnDTJDRylamFuROLo9Mos7OVo5kv8vDzX2N2uoBBt17m8a3/xeMLMbYwz+pX/4M3
+      lCI2ukL28Qpv/eQfiEcDJxaHk53poPjeoBAM+ugQIDE6iWV0UVwe9FaFaqWJz+9Fi8QJR8L4
+      Q1tosSFcisXa3c8YuXD8uw2HCSanGHbVUKfmQC9j4Eev53CPz9OqVAhEk8RTA7Sr14imhunq
+      BqMXNFmq9QQ5sAmkMPbGe4f+ZOjA/xOjU7sPLItIchSP+2QTPZiaIvjCsgCHzct/MDJxUuQi
+      +CgUBY/PZ3cU4hScWQJYZodyPkdpOwNAu7ROtdE9sE2LnY0VmvUGO5urZxWaw5mUtjf3Phej
+      U6eYz72wzc7GYxrVKjuZlTOP8DSdWRPIslrk1tYwu2We3P4Y9Dp1PUgkOUy71SQWNKkbXqxy
+      lrY3DY0n5BJDqHhIvvk+8YiskHI6TLZXlwGdzcUvMUyFWmmHcHyQWrXBUHqM7e0dIl6DQqmD
+      5jfJPnmE5vehJaYZmRi3+w28ljM7AyiKRqu8iksbID5+ES0UYXzuIqCghSJ0uhaBYIjY+ALB
+      gJfh2asE46PsbGeIycF/ilzQrWLgJZSaJBSJMLZwDbdbxRuM0KrXGIjHCaXGiSXjxMcvEokP
+      UtlaZWDo/K8ZdmZnAEX18NZHf/X8iYUrAPyh7w+rW0cbGJSJcU+VwvwPf3bI81e+/1dMHX8o
+      RsB3/u+h9PQ7UDxBkkNBu8MQB6luUmMTdkdxIv4f+aMBASZcWhIAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='student by Academic pressure' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAE9klEQVR4nO3b3WscVRzG8eecmaRpmzRd0uJLg9UECV5EEcGLXqj/sl55LxTxBZRYqcEa
+      EqSxsW1s7MuanXN+XsxkKxQaodgQn+8HlpkJSzKE/XLO7vJLERECTOWTvgHgJGVJigiVUk76
+      XoCXjhUA1ggA1ggA1ggA1ggA1ggA1ggA1tqjk1qr+FL4xdRurG++u6mz6YlmRld0f2dTr6++
+      o9FoSYvzc5Kk8f6u7tYLWl46r3L4SHfujzV+fKCVlbdO+O49TQPIOatpmpO8l1Pvq+tf6tbu
+      PY0WRvpr+7oePTpUmzt98XXW2vJFPXmwp+2tHR3OX9HK1Vd17b039Nmnn0up6vLinJqm1fKb
+      q9r59Y6urq3pw/UZheakaCVlhRr1i3ZWUpaG6+l5SkpKJ/kvOHXa45+Cf2th8aImW78pzjzQ
+      udErWjg7VtfOa2m+aOfWpuYXFzU3f1Hr767q2+9/1scfvK1rH32i/d1fdPDHPZ2Zm9WNH2/q
+      0msren99TdJDJc0Ov71IqpKqQkVVE0UUhYoiqkJ1OPareAyPFFlKfSDpKJZ0dN4opUZZWSk1
+      w7VXRCl6qrWyArwkv9/eVjp/WZcWz/2nf6ff0g7BRB1iKaqqw7H/eY1OVVU1yhBVH49iiChl
+      5SGWpKycmun10XlOWc1wnVI+NRERAJ4rIqYB1SgqKqrRP8o/jiU61Sjqon+uIp6GJPWhpEaN
+      mqfnwyOndnre5EZtal/aSsQWCM/VvxBb5Rd4LUbEM7F0w/kkJurKWCWKuujU1aJSOxVVHX0m
+      06eUhkhatalRk4djatTmPqA2tWrz02NOx3/IyQqAUyEipoF0MRmORV3tNKl9UJPa9dfRaVKP
+      3htJMWzlckrPREIAsBCSatRpMJMhFAKANb4JhjUCgDUCgDUCgDUCgDUCgDUCgDUCgDUCgDUC
+      gDVGImGNkUhYYwsEawQAawQAawQAawQAawQAawQAawQAawQAawQAawQAawQAawQAawQAawQA
+      awQAa0yEwRoTYbDGFgjWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWGImENUYiYY0tEKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwRAKwR
+      AKwRAKwRAKwRAKwxEQZrTITBGlsgWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMAWCMA
+      WCMAWCMAWCMAWCMAWCMAWGMkEtYYiYQ1tkCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCwRgCw
+      RgCwRgCwRgCwRgCwRgCwRgCwxkQYrDERBmtsgWCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNiTBYYyIM1tgCwRoBwBoBwBoBwBoBwBoBwBoBwBoBwBoB
+      wBoBwBoBwBoBwBoBwBoBwBoBwBoBwBoBwBojkbDGSCSssQWCNQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANSbCYI2JMFhjCwRrBABr7fFPAf4fxg/va3Pn
+      nma6Ax10s5o93GcFgI9Jydq69ZMuLY208cOGNjZusALAx+M/97W3d1dbO7d1YeGcZuZapeip
+      1sqnQLDDFgjWCADWCADWCADWCADWCADWCADWCADW/gah8sur346l1wAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='64' name='student by financial stress' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABACAYAAABMbHjfAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAABSklEQVR4nO3cQW6CUBRAUW2hAxNX0g11Qd0xCVO7BKkRfu09Z0zwgbn5o8f5drvdThD1
+      NnoAGEkApAmANAGQJgDSBECaAEi7G8C6rkfMwS8tyzJ6hH/BCUCaAEibtlz0+fW96xDz/LHr
+      /V/JPM+jRxjuyHfgBCBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA2vnel+HW
+      dT1dLpej5mGjZVlO1+t19BgvzwlAmgBIEwBpAiDt6TvBR+z3jt6bHf37zzJNf+s5pgHv1QlA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKRZiXxRViKfwwlAmgBIEwBpAiBt80rk
+      o6uOe64Pbr33yNW/vdb8pmnTXzfU+4PPfuRqpBOANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQ
+      JgDSBECaAEj7AYoRIi+WSjaNAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='student by suicidal thoughts' width='192'>
+      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
+      AcDaP1yEeJGHjA3gAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
