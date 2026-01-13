@@ -42,83 +42,83 @@ After preprocessing, the data was connected to Tableau.
 
 1. Count of Students by Suicidal Thoughts (Gender-wise)
 
-Chart Type: Stacked Bar Chart
+ Chart Type: Stacked Bar Chart
 
-Objective:
+ Objective:
 
-To analyze suicidal thoughts among students based on gender.
+ To analyze suicidal thoughts among students based on gender.
 
-Insights:
+ Insights:
 
-Both male and female students show suicidal thoughts
+ Both male and female students show suicidal thoughts
 
-Students with depression have a higher count of suicidal thoughts
+ Students with depression have a higher count of suicidal thoughts
 
-Gender-based mental health risk can be clearly identified
+ Gender-based mental health risk can be clearly identified
 
 2. Students by Financial Stress (Age Group-wise)
 
-Chart Type: Horizontal Bar Chart / Heat-style bars
+ Chart Type: Horizontal Bar Chart / Heat-style bars
 
-Objective:
+ Objective:
 
-To understand how financial stress affects different age groups.
+ To understand how financial stress affects different age groups.
 
-Insights:
+ Insights:
 
-Financial stress increases with age
+ Financial stress increases with age
 
-Senior students face more financial pressure
+ Senior students face more financial pressure
 
-Financial stress is a major contributor to depression
+ Financial stress is a major contributor to depression
 
 3. Academic Pressure by Sleep Duration
 
-Chart Type: Area Chart
+ Chart Type: Area Chart
 
-Objective:
+ Objective:
 
-To analyze the relationship between sleep duration and academic pressure.
+ To analyze the relationship between sleep duration and academic pressure.
 
-Insights:
+ Insights:
 
-Less sleep leads to higher academic pressure
+ Less sleep leads to higher academic pressure
 
-Students sleeping fewer hours show more stress
+ Students sleeping fewer hours show more stress
 
-Proper sleep plays an important role in mental health
+ Proper sleep plays an important role in mental health
 
 4. Age by Depression-wise Dietary Habits
 
-Chart Type: Heatmap
+ Chart Type: Heatmap
 
-Objective:
+ Objective:
 
-To analyze dietary habits based on age and depression level.
+ To analyze dietary habits based on age and depression level.
 
-Insights:
+ Insights:
 
-Students with unhealthy diets show higher depression
+ Students with unhealthy diets show higher depression
 
-Healthy dietary habits are more common in low-depression students
+ Healthy dietary habits are more common in low-depression students
 
-Diet has a strong impact on mental health
+ Diet has a strong impact on mental health
 
 5. Students by Academic Pressure-wise Study Hours
 
-Chart Type: Line Chart
+ Chart Type: Line Chart
 
-Objective:
+ Objective:
 
-To understand how study hours change with academic pressure.
+ To understand how study hours change with academic pressure.
 
-Insights:
+ Insights:
 
-Higher academic pressure results in longer study hours
+ Higher academic pressure results in longer study hours
 
-Excessive study hours increase stress and depression risk
+ Excessive study hours increase stress and depression risk
 
-Balanced study time is important for mental well-being
+ Balanced study time is important for mental well-being
 
 # Dashboard Objective
 
